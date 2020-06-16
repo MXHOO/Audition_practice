@@ -1,0 +1,9 @@
+.outer{
+    background: red;
+    overflow: hidden;
+}
+.inner {
+    background: blueviolet;
+    margin-top: 10px;
+    height: 100px;
+}

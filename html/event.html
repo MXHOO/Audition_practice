@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="../css/event.css">
+</head>
+
+<body>
+    <div id="demo"></div>
+    <ul id="ul_c">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+    </ul>
+    <script>
+        var ul = document.getElementById("ul_c");
+        console.log("hello");
+        ul.addEventListener("click", function (ev) {
+            console.log(ev.target+"----"+ev.target.nodeName);
+        })
+
+        // var x = document.getElementById("demo");
+
+        // function getLocation() {
+        //     // if (navigator.geolocation) {
+        //     //     navigator.geolocation.getCurrentPosition(showPosition);
+        //     // } else {
+        //     //     x.innerHTML = "Geolocation is not supported by this browser.";
+        //     // }
+        // }
+
+        // function showPosition(position) {
+        //     x.innerHTML = "Latitude: " + position.coords.latitude +
+        //         "<br />Longitude: " + position.coords.longitude;
+        // }
+        // getLocation();
+        // // showPosition();
+        // const worker = new Worker();
+    </script>
+</body>
+
+</html>
